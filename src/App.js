@@ -10,6 +10,7 @@ function App() {
 
  // let counter = 15 // ye yahi kam kr rha hai const[counter,setCounter] = useState(15)
   const addValue = () =>{
+    if(counter < 20){
     console.log("Value added",counter);
   //  console.log("Value added",Math.random())
   
@@ -17,9 +18,12 @@ function App() {
     setCounter(counter+1)
     // setCounter(counter) agr uper counter= counter+1 de rkha hao to ase bhi kr sakte hai
   }
+}
 
   const removeValue = () =>{
+    if(counter >0){
     setCounter(counter-1)
+    }
   }
 
 
