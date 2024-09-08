@@ -17,6 +17,9 @@ function App() {
     //counter = counter+1 // ise to jab use karege jab ese value denge let counter = 15
     setCounter(counter+1)
     // setCounter(counter) agr uper counter= counter+1 de rkha hao to ase bhi kr sakte hai
+
+    //setCounter(prevCounter => prevCounter + 1)
+    //setCounter(prevCounter => prevCounter + 1) i tarikhe se do bar increase ho jae agr de rkhe ho ase hi krna hai to vese ise hum dirext ase bhi kr sakte hai  counter = couner+2
   }
 }
 
